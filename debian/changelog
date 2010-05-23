@@ -1,5 +1,5 @@
-libdivecomputer (20100523-1) unstable; urgency=low
+libdivecomputer (20100523-1~lucid1) lucid; urgency=low
 
   * Initial release
 
- -- Andreas Sandberg <andreas@sandberg.pp.se>  Sun, 23 May 2010 13:48:10 +0200
+ -- Andreas Sandberg <andreas@sandberg.pp.se>  Sun, 23 May 2010 17:52:17 +0200
