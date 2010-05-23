@@ -1,0 +1,31 @@
+Source: libdivecomputer
+Priority: optional
+Maintainer: Andreas Sandberg <andreas@sandberg.pp.se>
+Build-Depends: debhelper (>= 7), autoconf, automake, libtool
+Standards-Version: 3.8.4
+Section: libs
+Homepage: http://divesoftware.org/libdc
+
+Package: libdivecomputer-dev
+Section: libdevel
+Architecture: any
+Depends: libdivecomputer0 (= ${binary:Version})
+Description: Dive Computer interface library - development files
+ libdivecomputer is an interface library for common dive computers
+ .
+ The libdivecomputer library allows interfacing with several common
+ dive computers from multiple manufacturers.
+ .
+ This package holds the development files.
+
+Package: libdivecomputer0
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Dive Computer interface library
+ libdivecomputer is an interface library for common dive computers
+ .
+ The libdivecomputer library allows interfacing with several common
+ dive computers from multiple manufacturers.
+ .
+ This package holds the shared library.
